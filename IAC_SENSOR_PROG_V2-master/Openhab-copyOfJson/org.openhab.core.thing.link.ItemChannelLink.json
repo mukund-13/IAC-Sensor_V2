@@ -1,0 +1,515 @@
+{
+  "IAC001 -\u003e zwave:device:e1b8aa8db9:node3:meter_voltage3": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "e1b8aa8db9",
+          "node3",
+          "meter_voltage3"
+        ],
+        "uid": "zwave:device:e1b8aa8db9:node3:meter_voltage3"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "IAC001"
+    }
+  },
+  "IAC001 -\u003e zwave:device:e1b8aa8db9:node3:meter_voltage4": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "e1b8aa8db9",
+          "node3",
+          "meter_voltage4"
+        ],
+        "uid": "zwave:device:e1b8aa8db9:node3:meter_voltage4"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "IAC001"
+    }
+  },
+  "IAC001 -\u003e zwave:device:e1b8aa8db9:node3:sensor_temperature": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "e1b8aa8db9",
+          "node3",
+          "sensor_temperature"
+        ],
+        "uid": "zwave:device:e1b8aa8db9:node3:sensor_temperature"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "IAC001"
+    }
+  },
+  "IAC001 -\u003e zwave:device:e1b8aa8db9:node3:sensor_temperature8": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "e1b8aa8db9",
+          "node3",
+          "sensor_temperature8"
+        ],
+        "uid": "zwave:device:e1b8aa8db9:node3:sensor_temperature8"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "IAC001"
+    }
+  },
+  "IAC001 -\u003e zwave:device:e1b8aa8db9:node3:switch_binary5": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "e1b8aa8db9",
+          "node3",
+          "switch_binary5"
+        ],
+        "uid": "zwave:device:e1b8aa8db9:node3:switch_binary5"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "IAC001"
+    }
+  },
+  "IAC001 -\u003e zwave:device:e1b8aa8db9:node3:switch_binary6": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "e1b8aa8db9",
+          "node3",
+          "switch_binary6"
+        ],
+        "uid": "zwave:device:e1b8aa8db9:node3:switch_binary6"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "IAC001"
+    }
+  },
+  "IAC001_Input1Voltage -\u003e zwave:device:e1b8aa8db9:node3:meter_voltage3": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "e1b8aa8db9",
+          "node3",
+          "meter_voltage3"
+        ],
+        "uid": "zwave:device:e1b8aa8db9:node3:meter_voltage3"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "IAC001_Input1Voltage"
+    }
+  },
+  "IAC001_Input2Voltage -\u003e zwave:device:e1b8aa8db9:node3:meter_voltage4": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "e1b8aa8db9",
+          "node3",
+          "meter_voltage4"
+        ],
+        "uid": "zwave:device:e1b8aa8db9:node3:meter_voltage4"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "IAC001_Input2Voltage"
+    }
+  },
+  "IAC001_Sensortemperature1 -\u003e zwave:device:e1b8aa8db9:node3:sensor_temperature8": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "e1b8aa8db9",
+          "node3",
+          "sensor_temperature8"
+        ],
+        "uid": "zwave:device:e1b8aa8db9:node3:sensor_temperature8"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "IAC001_Sensortemperature1"
+    }
+  },
+  "IAC001_SensortemperatureInternal -\u003e zwave:device:e1b8aa8db9:node3:sensor_temperature": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "e1b8aa8db9",
+          "node3",
+          "sensor_temperature"
+        ],
+        "uid": "zwave:device:e1b8aa8db9:node3:sensor_temperature"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "IAC001_SensortemperatureInternal"
+    }
+  },
+  "IAC001_SwitchOutput1 -\u003e zwave:device:e1b8aa8db9:node3:switch_binary5": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "e1b8aa8db9",
+          "node3",
+          "switch_binary5"
+        ],
+        "uid": "zwave:device:e1b8aa8db9:node3:switch_binary5"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "IAC001_SwitchOutput1"
+    }
+  },
+  "IAC001_SwitchOutput2 -\u003e zwave:device:e1b8aa8db9:node3:switch_binary6": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "e1b8aa8db9",
+          "node3",
+          "switch_binary6"
+        ],
+        "uid": "zwave:device:e1b8aa8db9:node3:switch_binary6"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "IAC001_SwitchOutput2"
+    }
+  },
+  "IAC002 -\u003e zwave:device:e1b8aa8db9:node4:meter_voltage3": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "e1b8aa8db9",
+          "node4",
+          "meter_voltage3"
+        ],
+        "uid": "zwave:device:e1b8aa8db9:node4:meter_voltage3"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "IAC002"
+    }
+  },
+  "IAC002 -\u003e zwave:device:e1b8aa8db9:node4:meter_voltage4": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "e1b8aa8db9",
+          "node4",
+          "meter_voltage4"
+        ],
+        "uid": "zwave:device:e1b8aa8db9:node4:meter_voltage4"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "IAC002"
+    }
+  },
+  "IAC002 -\u003e zwave:device:e1b8aa8db9:node4:sensor_temperature": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "e1b8aa8db9",
+          "node4",
+          "sensor_temperature"
+        ],
+        "uid": "zwave:device:e1b8aa8db9:node4:sensor_temperature"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "IAC002"
+    }
+  },
+  "IAC002 -\u003e zwave:device:e1b8aa8db9:node4:sensor_temperature8": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "e1b8aa8db9",
+          "node4",
+          "sensor_temperature8"
+        ],
+        "uid": "zwave:device:e1b8aa8db9:node4:sensor_temperature8"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "IAC002"
+    }
+  },
+  "IAC002 -\u003e zwave:device:e1b8aa8db9:node4:switch_binary5": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "e1b8aa8db9",
+          "node4",
+          "switch_binary5"
+        ],
+        "uid": "zwave:device:e1b8aa8db9:node4:switch_binary5"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "IAC002"
+    }
+  },
+  "IAC002 -\u003e zwave:device:e1b8aa8db9:node4:switch_binary6": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "e1b8aa8db9",
+          "node4",
+          "switch_binary6"
+        ],
+        "uid": "zwave:device:e1b8aa8db9:node4:switch_binary6"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "IAC002"
+    }
+  },
+  "IAC002_Input1Voltage -\u003e zwave:device:e1b8aa8db9:node4:meter_voltage3": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "e1b8aa8db9",
+          "node4",
+          "meter_voltage3"
+        ],
+        "uid": "zwave:device:e1b8aa8db9:node4:meter_voltage3"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "IAC002_Input1Voltage"
+    }
+  },
+  "IAC002_Input2Voltage -\u003e zwave:device:e1b8aa8db9:node4:meter_voltage4": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "e1b8aa8db9",
+          "node4",
+          "meter_voltage4"
+        ],
+        "uid": "zwave:device:e1b8aa8db9:node4:meter_voltage4"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "IAC002_Input2Voltage"
+    }
+  },
+  "IAC002_Sensortemperature1 -\u003e zwave:device:e1b8aa8db9:node4:sensor_temperature8": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "e1b8aa8db9",
+          "node4",
+          "sensor_temperature8"
+        ],
+        "uid": "zwave:device:e1b8aa8db9:node4:sensor_temperature8"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "IAC002_Sensortemperature1"
+    }
+  },
+  "IAC002_SensortemperatureInternal -\u003e zwave:device:e1b8aa8db9:node4:sensor_temperature": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "e1b8aa8db9",
+          "node4",
+          "sensor_temperature"
+        ],
+        "uid": "zwave:device:e1b8aa8db9:node4:sensor_temperature"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "IAC002_SensortemperatureInternal"
+    }
+  },
+  "IAC002_SwitchOutput1 -\u003e zwave:device:e1b8aa8db9:node4:switch_binary5": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "e1b8aa8db9",
+          "node4",
+          "switch_binary5"
+        ],
+        "uid": "zwave:device:e1b8aa8db9:node4:switch_binary5"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "IAC002_SwitchOutput1"
+    }
+  },
+  "IAC002_SwitchOutput2 -\u003e zwave:device:e1b8aa8db9:node4:switch_binary6": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "e1b8aa8db9",
+          "node4",
+          "switch_binary6"
+        ],
+        "uid": "zwave:device:e1b8aa8db9:node4:switch_binary6"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "IAC002_SwitchOutput2"
+    }
+  },
+  "IAC003_Switch -\u003e zwave:device:e1b8aa8db9:node7:switch_binary": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "e1b8aa8db9",
+          "node7",
+          "switch_binary"
+        ],
+        "uid": "zwave:device:e1b8aa8db9:node7:switch_binary"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "IAC003_Switch"
+    }
+  },
+  "IAC004_Switch -\u003e zwave:device:e1b8aa8db9:node6:switch_binary": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "e1b8aa8db9",
+          "node6",
+          "switch_binary"
+        ],
+        "uid": "zwave:device:e1b8aa8db9:node6:switch_binary"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "IAC004_Switch"
+    }
+  },
+  "NewItem -\u003e zwave:device:e1b8aa8db9:node3:sensor_temperature": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "e1b8aa8db9",
+          "node3",
+          "sensor_temperature"
+        ],
+        "uid": "zwave:device:e1b8aa8db9:node3:sensor_temperature"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "NewItem"
+    }
+  }
+}

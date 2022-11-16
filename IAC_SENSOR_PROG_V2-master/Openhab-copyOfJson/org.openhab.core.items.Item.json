@@ -1,0 +1,246 @@
+{
+  "IAC001": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Group",
+      "tags": [
+        "Equipment"
+      ],
+      "label": "IAC001",
+      "category": ""
+    }
+  },
+  "IAC001_Input1Voltage": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [
+        "IAC001"
+      ],
+      "itemType": "Number",
+      "tags": [
+        "Point"
+      ],
+      "label": "Input 1 Voltage",
+      "category": "Energy"
+    }
+  },
+  "IAC001_Input2Voltage": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [
+        "IAC001"
+      ],
+      "itemType": "Number",
+      "tags": [
+        "Point"
+      ],
+      "label": "Input 2 Voltage",
+      "category": "Energy"
+    }
+  },
+  "IAC001_Sensortemperature1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [
+        "IAC001"
+      ],
+      "itemType": "Number:Temperature",
+      "tags": [
+        "Point"
+      ],
+      "label": "Sensor (temperature) 1",
+      "category": "Temperature"
+    }
+  },
+  "IAC001_SensortemperatureInternal": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [
+        "IAC001"
+      ],
+      "itemType": "Number:Temperature",
+      "tags": [
+        "Point"
+      ],
+      "label": "Sensor (temperature) Internal",
+      "category": "Temperature"
+    }
+  },
+  "IAC001_SwitchOutput1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [
+        "IAC001"
+      ],
+      "itemType": "Switch",
+      "tags": [
+        "Point"
+      ],
+      "label": "Switch Output 1",
+      "category": "Switch"
+    }
+  },
+  "IAC001_SwitchOutput2": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [
+        "IAC001"
+      ],
+      "itemType": "Switch",
+      "tags": [
+        "Point"
+      ],
+      "label": "Switch Output 2",
+      "category": "Switch"
+    }
+  },
+  "IAC002": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Group",
+      "tags": [
+        "Equipment"
+      ],
+      "label": "IAC002",
+      "category": ""
+    }
+  },
+  "IAC002_Input1Voltage": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [
+        "IAC002"
+      ],
+      "itemType": "Number",
+      "tags": [
+        "Point"
+      ],
+      "label": "Input 1 Voltage",
+      "category": "Energy"
+    }
+  },
+  "IAC002_Input2Voltage": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [
+        "IAC002"
+      ],
+      "itemType": "Number",
+      "tags": [
+        "Point"
+      ],
+      "label": "Input 2 Voltage",
+      "category": "Energy"
+    }
+  },
+  "IAC002_Sensortemperature1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [
+        "IAC002"
+      ],
+      "itemType": "Number:Temperature",
+      "tags": [
+        "Point"
+      ],
+      "label": "Sensor (temperature) 1",
+      "category": "Temperature"
+    }
+  },
+  "IAC002_SensortemperatureInternal": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [
+        "IAC002"
+      ],
+      "itemType": "Number:Temperature",
+      "tags": [
+        "Point"
+      ],
+      "label": "Sensor (temperature) Internal",
+      "category": "Temperature"
+    }
+  },
+  "IAC002_SwitchOutput1": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [
+        "IAC002"
+      ],
+      "itemType": "Switch",
+      "tags": [
+        "Point"
+      ],
+      "label": "Switch Output 1",
+      "category": "Switch"
+    }
+  },
+  "IAC002_SwitchOutput2": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [
+        "IAC002"
+      ],
+      "itemType": "Switch",
+      "tags": [
+        "Point"
+      ],
+      "label": "Switch Output 2",
+      "category": "Switch"
+    }
+  },
+  "IAC003": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Group",
+      "tags": [
+        "Equipment"
+      ],
+      "label": "IAC003",
+      "category": ""
+    }
+  },
+  "IAC003_Switch": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [
+        "IAC003"
+      ],
+      "itemType": "Switch",
+      "tags": [
+        "Point"
+      ],
+      "label": "Switch",
+      "category": "Switch"
+    }
+  },
+  "IAC004": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Group",
+      "tags": [
+        "Equipment"
+      ],
+      "label": "IAC004",
+      "category": ""
+    }
+  },
+  "IAC004_Switch": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [
+        "IAC004"
+      ],
+      "itemType": "Switch",
+      "tags": [
+        "Point"
+      ],
+      "label": "Switch",
+      "category": "Switch"
+    }
+  }
+}

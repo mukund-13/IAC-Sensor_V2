@@ -1,0 +1,2185 @@
+{
+  "zwave:device:e1b8aa8db9:node3": {
+    "class": "org.openhab.core.thing.internal.ThingImpl",
+    "value": {
+      "label": "IAC001",
+      "bridgeUID": {
+        "segments": [
+          "zwave",
+          "serial_zstick",
+          "e1b8aa8db9"
+        ],
+        "uid": "zwave:serial_zstick:e1b8aa8db9"
+      },
+      "channels": [
+        {
+          "acceptedItemType": "Number:Temperature",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "e1b8aa8db9",
+              "node3",
+              "sensor_temperature"
+            ],
+            "uid": "zwave:device:e1b8aa8db9:node3:sensor_temperature"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "sensor_temperature"
+            ],
+            "uid": "zwave:sensor_temperature"
+          },
+          "label": "Sensor (temperature) Internal",
+          "description": "Indicates the current temperature",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:QuantityType": "COMMAND_CLASS_SENSOR_MULTILEVEL;type\u003dTEMPERATURE"
+          },
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "e1b8aa8db9",
+              "node3",
+              "scene_number"
+            ],
+            "uid": "zwave:device:e1b8aa8db9:node3:scene_number"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "scene_number"
+            ],
+            "uid": "zwave:scene_number"
+          },
+          "label": "Scene Number",
+          "description": "Triggers when a scene button is pressed",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:DecimalType": "COMMAND_CLASS_CENTRAL_SCENE"
+          },
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Switch",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "e1b8aa8db9",
+              "node3",
+              "alarm_burglar1"
+            ],
+            "uid": "zwave:device:e1b8aa8db9:node3:alarm_burglar1"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "alarm_burglar"
+            ],
+            "uid": "zwave:alarm_burglar"
+          },
+          "label": "Input 1 Alarm",
+          "description": "Indicates if the burglar alarm is triggered",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:OnOffType": "COMMAND_CLASS_ALARM:1,COMMAND_CLASS_BASIC:1;type\u003dBURGLAR"
+          },
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Switch",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "e1b8aa8db9",
+              "node3",
+              "alarm_burglar2"
+            ],
+            "uid": "zwave:device:e1b8aa8db9:node3:alarm_burglar2"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "alarm_burglar"
+            ],
+            "uid": "zwave:alarm_burglar"
+          },
+          "label": "Input 2 Alarm",
+          "description": "Indicates if the burglar alarm is triggered",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:OnOffType": "COMMAND_CLASS_ALARM:2,COMMAND_CLASS_BASIC:2;type\u003dBURGLAR"
+          },
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "e1b8aa8db9",
+              "node3",
+              "meter_voltage3"
+            ],
+            "uid": "zwave:device:e1b8aa8db9:node3:meter_voltage3"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "meter_voltage"
+            ],
+            "uid": "zwave:meter_voltage"
+          },
+          "label": "Input 1 Voltage",
+          "description": "Indicates the instantaneous voltage",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:DecimalType": "COMMAND_CLASS_SENSOR_MULTILEVEL:3,COMMAND_CLASS_BASIC:3;type\u003dVOLTAGE"
+          },
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "e1b8aa8db9",
+              "node3",
+              "meter_voltage4"
+            ],
+            "uid": "zwave:device:e1b8aa8db9:node3:meter_voltage4"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "meter_voltage"
+            ],
+            "uid": "zwave:meter_voltage"
+          },
+          "label": "Input 2 Voltage",
+          "description": "Indicates the instantaneous voltage",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:DecimalType": "COMMAND_CLASS_SENSOR_MULTILEVEL:4,COMMAND_CLASS_BASIC:4;type\u003dVOLTAGE"
+          },
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Switch",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "e1b8aa8db9",
+              "node3",
+              "switch_binary5"
+            ],
+            "uid": "zwave:device:e1b8aa8db9:node3:switch_binary5"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "switch_binary"
+            ],
+            "uid": "zwave:switch_binary"
+          },
+          "label": "Switch Output 1",
+          "description": "Switch the power on and off",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:OnOffType": "COMMAND_CLASS_SWITCH_BINARY:5,COMMAND_CLASS_BASIC:5"
+          },
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "e1b8aa8db9",
+              "node3",
+              "protection_local5"
+            ],
+            "uid": "zwave:device:e1b8aa8db9:node3:protection_local5"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "protection_local"
+            ],
+            "uid": "zwave:protection_local"
+          },
+          "label": "Protection Local Output 1",
+          "description": "Sets the local protection mode",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:DecimalType": "COMMAND_CLASS_PROTECTION:5;type\u003dPROTECTION_LOCAL"
+          },
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "e1b8aa8db9",
+              "node3",
+              "protection_rf5"
+            ],
+            "uid": "zwave:device:e1b8aa8db9:node3:protection_rf5"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "protection_rf"
+            ],
+            "uid": "zwave:protection_rf"
+          },
+          "label": "Protection RF Output 1",
+          "description": "Sets the rf protection mode",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:DecimalType": "COMMAND_CLASS_PROTECTION:5;type\u003dPROTECTION_RF"
+          },
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Switch",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "e1b8aa8db9",
+              "node3",
+              "switch_binary6"
+            ],
+            "uid": "zwave:device:e1b8aa8db9:node3:switch_binary6"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "switch_binary"
+            ],
+            "uid": "zwave:switch_binary"
+          },
+          "label": "Switch Output 2",
+          "description": "Switch the power on and off",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:OnOffType": "COMMAND_CLASS_SWITCH_BINARY:6,COMMAND_CLASS_BASIC:6"
+          },
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "e1b8aa8db9",
+              "node3",
+              "protection_local6"
+            ],
+            "uid": "zwave:device:e1b8aa8db9:node3:protection_local6"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "protection_local"
+            ],
+            "uid": "zwave:protection_local"
+          },
+          "label": "Protection Local Output 2",
+          "description": "Sets the local protection mode",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:DecimalType": "COMMAND_CLASS_PROTECTION:6;type\u003dPROTECTION_LOCAL"
+          },
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "e1b8aa8db9",
+              "node3",
+              "protection_rf6"
+            ],
+            "uid": "zwave:device:e1b8aa8db9:node3:protection_rf6"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "protection_rf"
+            ],
+            "uid": "zwave:protection_rf"
+          },
+          "label": "Protection RF Output 2",
+          "description": "Sets the rf protection mode",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:DecimalType": "COMMAND_CLASS_PROTECTION:6;type\u003dPROTECTION_RF"
+          },
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Switch",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "e1b8aa8db9",
+              "node3",
+              "alarm_heat7"
+            ],
+            "uid": "zwave:device:e1b8aa8db9:node3:alarm_heat7"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "alarm_heat"
+            ],
+            "uid": "zwave:alarm_heat"
+          },
+          "label": "Sensor (temperature) Device Overheat",
+          "description": "Indicates if a heat alarm is triggered",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:OnOffType": "COMMAND_CLASS_ALARM:7;type\u003dHEAT"
+          },
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number:Temperature",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "e1b8aa8db9",
+              "node3",
+              "sensor_temperature8"
+            ],
+            "uid": "zwave:device:e1b8aa8db9:node3:sensor_temperature8"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "sensor_temperature"
+            ],
+            "uid": "zwave:sensor_temperature"
+          },
+          "label": "Sensor (temperature) 1",
+          "description": "Indicates the current temperature",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:QuantityType": "COMMAND_CLASS_SENSOR_MULTILEVEL:8;type\u003dTEMPERATURE"
+          },
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "e1b8aa8db9",
+              "node3",
+              "notification_system8"
+            ],
+            "uid": "zwave:device:e1b8aa8db9:node3:notification_system8"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "notification_system"
+            ],
+            "uid": "zwave:notification_system"
+          },
+          "label": "Sensor (temperature) 1 Device Error",
+          "description": "System",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:OnOffType": "COMMAND_CLASS_ALARM:8;type\u003dSYSTEM"
+          },
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "e1b8aa8db9",
+              "node3",
+              "sensor_relhumidity9"
+            ],
+            "uid": "zwave:device:e1b8aa8db9:node3:sensor_relhumidity9"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "sensor_relhumidity"
+            ],
+            "uid": "zwave:sensor_relhumidity"
+          },
+          "label": "Relative Humidity 1",
+          "description": "Indicates the current relative humidity",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:DecimalType": "COMMAND_CLASS_SENSOR_MULTILEVEL:9;type\u003dRELATIVE_HUMIDITY"
+          },
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number:Temperature",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "e1b8aa8db9",
+              "node3",
+              "sensor_temperature9"
+            ],
+            "uid": "zwave:device:e1b8aa8db9:node3:sensor_temperature9"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "sensor_temperature"
+            ],
+            "uid": "zwave:sensor_temperature"
+          },
+          "label": "Sensor (temperature) 2",
+          "description": "Indicates the current temperature",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:QuantityType": "COMMAND_CLASS_SENSOR_MULTILEVEL:9;type\u003dTEMPERATURE"
+          },
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "e1b8aa8db9",
+              "node3",
+              "notification_system9"
+            ],
+            "uid": "zwave:device:e1b8aa8db9:node3:notification_system9"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "notification_system"
+            ],
+            "uid": "zwave:notification_system"
+          },
+          "label": "Sensor (temperature) 2 Device Error",
+          "description": "System",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:OnOffType": "COMMAND_CLASS_ALARM:9;type\u003dSYSTEM"
+          },
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number:Temperature",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "e1b8aa8db9",
+              "node3",
+              "sensor_temperature10"
+            ],
+            "uid": "zwave:device:e1b8aa8db9:node3:sensor_temperature10"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "sensor_temperature"
+            ],
+            "uid": "zwave:sensor_temperature"
+          },
+          "label": "Sensor (temperature) 3",
+          "description": "Indicates the current temperature",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:QuantityType": "COMMAND_CLASS_SENSOR_MULTILEVEL:10;type\u003dTEMPERATURE"
+          },
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "e1b8aa8db9",
+              "node3",
+              "notification_system10"
+            ],
+            "uid": "zwave:device:e1b8aa8db9:node3:notification_system10"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "notification_system"
+            ],
+            "uid": "zwave:notification_system"
+          },
+          "label": "Sensor (temperature) 3 Device Error",
+          "description": "System",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:OnOffType": "COMMAND_CLASS_ALARM:10;type\u003dSYSTEM"
+          },
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number:Temperature",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "e1b8aa8db9",
+              "node3",
+              "sensor_temperature11"
+            ],
+            "uid": "zwave:device:e1b8aa8db9:node3:sensor_temperature11"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "sensor_temperature"
+            ],
+            "uid": "zwave:sensor_temperature"
+          },
+          "label": "Sensor (temperature) 4",
+          "description": "Indicates the current temperature",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:QuantityType": "COMMAND_CLASS_SENSOR_MULTILEVEL:11;type\u003dTEMPERATURE"
+          },
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "e1b8aa8db9",
+              "node3",
+              "notification_system11"
+            ],
+            "uid": "zwave:device:e1b8aa8db9:node3:notification_system11"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "notification_system"
+            ],
+            "uid": "zwave:notification_system"
+          },
+          "label": "Sensor (temperature) 4 Device Error",
+          "description": "System",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:OnOffType": "COMMAND_CLASS_ALARM:11;type\u003dSYSTEM"
+          },
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number:Temperature",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "e1b8aa8db9",
+              "node3",
+              "sensor_temperature12"
+            ],
+            "uid": "zwave:device:e1b8aa8db9:node3:sensor_temperature12"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "sensor_temperature"
+            ],
+            "uid": "zwave:sensor_temperature"
+          },
+          "label": "Sensor (temperature) 5",
+          "description": "Indicates the current temperature",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:QuantityType": "COMMAND_CLASS_SENSOR_MULTILEVEL:12;type\u003dTEMPERATURE"
+          },
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "e1b8aa8db9",
+              "node3",
+              "notification_system12"
+            ],
+            "uid": "zwave:device:e1b8aa8db9:node3:notification_system12"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "notification_system"
+            ],
+            "uid": "zwave:notification_system"
+          },
+          "label": "Sensor (temperature) 5 Device Error",
+          "description": "System",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:OnOffType": "COMMAND_CLASS_ALARM:12;type\u003dSYSTEM"
+          },
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number:Temperature",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "e1b8aa8db9",
+              "node3",
+              "sensor_temperature13"
+            ],
+            "uid": "zwave:device:e1b8aa8db9:node3:sensor_temperature13"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "sensor_temperature"
+            ],
+            "uid": "zwave:sensor_temperature"
+          },
+          "label": "Sensor (temperature) 6",
+          "description": "Indicates the current temperature",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:QuantityType": "COMMAND_CLASS_SENSOR_MULTILEVEL:13;type\u003dTEMPERATURE"
+          },
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "e1b8aa8db9",
+              "node3",
+              "notification_system13"
+            ],
+            "uid": "zwave:device:e1b8aa8db9:node3:notification_system13"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "notification_system"
+            ],
+            "uid": "zwave:notification_system"
+          },
+          "label": "Sensor (temperature) 6 Device Error",
+          "description": "System",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:OnOffType": "COMMAND_CLASS_ALARM:13;type\u003dSYSTEM"
+          },
+          "defaultTags": []
+        }
+      ],
+      "configuration": {
+        "properties": {
+          "config_150_1": 10,
+          "config_151_1": 10,
+          "config_152_2": 0,
+          "config_153_2": 0,
+          "config_154_1": 0,
+          "config_155_1": 0,
+          "config_156_2": 0,
+          "config_157_2": 0,
+          "config_20_1": 2,
+          "config_21_1": 2,
+          "config_24_1": 0,
+          "config_25_1": 0,
+          "config_40_1_0000000F": 0,
+          "config_41_1_0000000F": 0,
+          "config_47_2": 255,
+          "config_49_2": 0,
+          "config_52_2": 255,
+          "config_54_2": 0,
+          "config_63_1": 5,
+          "config_64_2": 0,
+          "config_65_2": 5,
+          "config_66_2": 0,
+          "config_67_2": 5,
+          "config_68_2": 0,
+          "group_1": [
+            "controller"
+          ],
+          "group_2": [],
+          "group_3": [],
+          "node_id": 3
+        }
+      },
+      "properties": {
+        "commandClass:COMMAND_CLASS_ALARM": "DELETE SAME AS ENDPOINT 1",
+        "commandClass:COMMAND_CLASS_ALARM:12": "type\u003dSYSTEM",
+        "commandClass:COMMAND_CLASS_ALARM:13": "type\u003dSYSTEM",
+        "commandClass:COMMAND_CLASS_ALARM:7": "type\u003dSYSTEM",
+        "commandClass:COMMAND_CLASS_ALARM:8": "type\u003dSYSTEM",
+        "commandClass:COMMAND_CLASS_ALARM:9": "type\u003dSYSTEM",
+        "commandClass:COMMAND_CLASS_BASIC:1": "DELETE",
+        "commandClass:COMMAND_CLASS_BASIC:2": "DELETE",
+        "commandClass:COMMAND_CLASS_BASIC:3": "DELETE",
+        "commandClass:COMMAND_CLASS_BASIC:4": "DELETE",
+        "commandClass:COMMAND_CLASS_BASIC:5": "DELETE",
+        "commandClass:COMMAND_CLASS_BASIC:6": "DELETE",
+        "commandClass:COMMAND_CLASS_BASIC:7": "DELETE",
+        "commandClass:COMMAND_CLASS_PROTECTION:1": "DELETE",
+        "commandClass:COMMAND_CLASS_PROTECTION:2": "DELETE",
+        "commandClass:COMMAND_CLASS_SENSOR_MULTILEVEL:10": "type\u003dTEMPERATURE",
+        "commandClass:COMMAND_CLASS_SENSOR_MULTILEVEL:11": "type\u003dTEMPERATURE",
+        "commandClass:COMMAND_CLASS_SENSOR_MULTILEVEL:12": "type\u003dTEMPERATURE",
+        "commandClass:COMMAND_CLASS_SENSOR_MULTILEVEL:13": "type\u003dTEMPERATURE",
+        "commandClass:COMMAND_CLASS_SENSOR_MULTILEVEL:3": "type\u003dVOLTAGE",
+        "commandClass:COMMAND_CLASS_SENSOR_MULTILEVEL:4": "type\u003dVOLTAGE",
+        "commandClass:COMMAND_CLASS_SENSOR_MULTILEVEL:7": "DELETE MAPPED TO ROOT",
+        "commandClass:COMMAND_CLASS_SENSOR_MULTILEVEL:8": "type\u003dTEMPERATURE",
+        "dbReference": "1005",
+        "defaultAssociations": "1",
+        "manufacturerId": "010F",
+        "manufacturerRef": "0502:1000,0502:2000,0502:3000",
+        "modelId": "FGBS222",
+        "vendor": "Fibargroup",
+        "zwave_beaming": "true",
+        "zwave_class_basic": "BASIC_TYPE_ROUTING_SLAVE",
+        "zwave_class_generic": "GENERIC_TYPE_SENSOR_NOTIFICATION",
+        "zwave_class_specific": "SPECIFIC_TYPE_NOTIFICATION_SENSOR",
+        "zwave_deviceid": "8192",
+        "zwave_devicetype": "1282",
+        "zwave_frequent": "false",
+        "zwave_listening": "true",
+        "zwave_manufacturer": "271",
+        "zwave_neighbours": "",
+        "zwave_nodeid": "3",
+        "zwave_plus_devicetype": "NODE_TYPE_ZWAVEPLUS_NODE",
+        "zwave_plus_roletype": "ROLE_TYPE_SLAVE_ALWAYS_ON",
+        "zwave_routing": "true",
+        "zwave_secure": "false",
+        "zwave_version": "5.1"
+      },
+      "uid": {
+        "segments": [
+          "zwave",
+          "device",
+          "e1b8aa8db9",
+          "node3"
+        ],
+        "uid": "zwave:device:e1b8aa8db9:node3"
+      },
+      "thingTypeUID": {
+        "segments": [
+          "zwave",
+          "fibaro_fgbs222_00_000"
+        ],
+        "uid": "zwave:fibaro_fgbs222_00_000"
+      }
+    }
+  },
+  "zwave:device:e1b8aa8db9:node4": {
+    "class": "org.openhab.core.thing.internal.ThingImpl",
+    "value": {
+      "label": "IAC002",
+      "bridgeUID": {
+        "segments": [
+          "zwave",
+          "serial_zstick",
+          "e1b8aa8db9"
+        ],
+        "uid": "zwave:serial_zstick:e1b8aa8db9"
+      },
+      "channels": [
+        {
+          "acceptedItemType": "Number:Temperature",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "e1b8aa8db9",
+              "node4",
+              "sensor_temperature"
+            ],
+            "uid": "zwave:device:e1b8aa8db9:node4:sensor_temperature"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "sensor_temperature"
+            ],
+            "uid": "zwave:sensor_temperature"
+          },
+          "label": "Sensor (temperature) Internal",
+          "description": "Indicates the current temperature",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:QuantityType": "COMMAND_CLASS_SENSOR_MULTILEVEL;type\u003dTEMPERATURE"
+          },
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "e1b8aa8db9",
+              "node4",
+              "scene_number"
+            ],
+            "uid": "zwave:device:e1b8aa8db9:node4:scene_number"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "scene_number"
+            ],
+            "uid": "zwave:scene_number"
+          },
+          "label": "Scene Number",
+          "description": "Triggers when a scene button is pressed",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:DecimalType": "COMMAND_CLASS_CENTRAL_SCENE"
+          },
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Switch",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "e1b8aa8db9",
+              "node4",
+              "alarm_burglar1"
+            ],
+            "uid": "zwave:device:e1b8aa8db9:node4:alarm_burglar1"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "alarm_burglar"
+            ],
+            "uid": "zwave:alarm_burglar"
+          },
+          "label": "Input 1 Alarm",
+          "description": "Indicates if the burglar alarm is triggered",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:OnOffType": "COMMAND_CLASS_ALARM:1,COMMAND_CLASS_BASIC:1;type\u003dBURGLAR"
+          },
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Switch",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "e1b8aa8db9",
+              "node4",
+              "alarm_burglar2"
+            ],
+            "uid": "zwave:device:e1b8aa8db9:node4:alarm_burglar2"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "alarm_burglar"
+            ],
+            "uid": "zwave:alarm_burglar"
+          },
+          "label": "Input 2 Alarm",
+          "description": "Indicates if the burglar alarm is triggered",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:OnOffType": "COMMAND_CLASS_ALARM:2,COMMAND_CLASS_BASIC:2;type\u003dBURGLAR"
+          },
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "e1b8aa8db9",
+              "node4",
+              "meter_voltage3"
+            ],
+            "uid": "zwave:device:e1b8aa8db9:node4:meter_voltage3"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "meter_voltage"
+            ],
+            "uid": "zwave:meter_voltage"
+          },
+          "label": "Input 1 Voltage",
+          "description": "Indicates the instantaneous voltage",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:DecimalType": "COMMAND_CLASS_SENSOR_MULTILEVEL:3,COMMAND_CLASS_BASIC:3;type\u003dVOLTAGE"
+          },
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "e1b8aa8db9",
+              "node4",
+              "meter_voltage4"
+            ],
+            "uid": "zwave:device:e1b8aa8db9:node4:meter_voltage4"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "meter_voltage"
+            ],
+            "uid": "zwave:meter_voltage"
+          },
+          "label": "Input 2 Voltage",
+          "description": "Indicates the instantaneous voltage",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:DecimalType": "COMMAND_CLASS_SENSOR_MULTILEVEL:4,COMMAND_CLASS_BASIC:4;type\u003dVOLTAGE"
+          },
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Switch",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "e1b8aa8db9",
+              "node4",
+              "switch_binary5"
+            ],
+            "uid": "zwave:device:e1b8aa8db9:node4:switch_binary5"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "switch_binary"
+            ],
+            "uid": "zwave:switch_binary"
+          },
+          "label": "Switch Output 1",
+          "description": "Switch the power on and off",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:OnOffType": "COMMAND_CLASS_SWITCH_BINARY:5,COMMAND_CLASS_BASIC:5"
+          },
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "e1b8aa8db9",
+              "node4",
+              "protection_local5"
+            ],
+            "uid": "zwave:device:e1b8aa8db9:node4:protection_local5"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "protection_local"
+            ],
+            "uid": "zwave:protection_local"
+          },
+          "label": "Protection Local Output 1",
+          "description": "Sets the local protection mode",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:DecimalType": "COMMAND_CLASS_PROTECTION:5;type\u003dPROTECTION_LOCAL"
+          },
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "e1b8aa8db9",
+              "node4",
+              "protection_rf5"
+            ],
+            "uid": "zwave:device:e1b8aa8db9:node4:protection_rf5"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "protection_rf"
+            ],
+            "uid": "zwave:protection_rf"
+          },
+          "label": "Protection RF Output 1",
+          "description": "Sets the rf protection mode",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:DecimalType": "COMMAND_CLASS_PROTECTION:5;type\u003dPROTECTION_RF"
+          },
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Switch",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "e1b8aa8db9",
+              "node4",
+              "switch_binary6"
+            ],
+            "uid": "zwave:device:e1b8aa8db9:node4:switch_binary6"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "switch_binary"
+            ],
+            "uid": "zwave:switch_binary"
+          },
+          "label": "Switch Output 2",
+          "description": "Switch the power on and off",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:OnOffType": "COMMAND_CLASS_SWITCH_BINARY:6,COMMAND_CLASS_BASIC:6"
+          },
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "e1b8aa8db9",
+              "node4",
+              "protection_local6"
+            ],
+            "uid": "zwave:device:e1b8aa8db9:node4:protection_local6"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "protection_local"
+            ],
+            "uid": "zwave:protection_local"
+          },
+          "label": "Protection Local Output 2",
+          "description": "Sets the local protection mode",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:DecimalType": "COMMAND_CLASS_PROTECTION:6;type\u003dPROTECTION_LOCAL"
+          },
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "e1b8aa8db9",
+              "node4",
+              "protection_rf6"
+            ],
+            "uid": "zwave:device:e1b8aa8db9:node4:protection_rf6"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "protection_rf"
+            ],
+            "uid": "zwave:protection_rf"
+          },
+          "label": "Protection RF Output 2",
+          "description": "Sets the rf protection mode",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:DecimalType": "COMMAND_CLASS_PROTECTION:6;type\u003dPROTECTION_RF"
+          },
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Switch",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "e1b8aa8db9",
+              "node4",
+              "alarm_heat7"
+            ],
+            "uid": "zwave:device:e1b8aa8db9:node4:alarm_heat7"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "alarm_heat"
+            ],
+            "uid": "zwave:alarm_heat"
+          },
+          "label": "Sensor (temperature) Device Overheat",
+          "description": "Indicates if a heat alarm is triggered",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:OnOffType": "COMMAND_CLASS_ALARM:7;type\u003dHEAT"
+          },
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number:Temperature",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "e1b8aa8db9",
+              "node4",
+              "sensor_temperature8"
+            ],
+            "uid": "zwave:device:e1b8aa8db9:node4:sensor_temperature8"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "sensor_temperature"
+            ],
+            "uid": "zwave:sensor_temperature"
+          },
+          "label": "Sensor (temperature) 1",
+          "description": "Indicates the current temperature",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:QuantityType": "COMMAND_CLASS_SENSOR_MULTILEVEL:8;type\u003dTEMPERATURE"
+          },
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "e1b8aa8db9",
+              "node4",
+              "notification_system8"
+            ],
+            "uid": "zwave:device:e1b8aa8db9:node4:notification_system8"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "notification_system"
+            ],
+            "uid": "zwave:notification_system"
+          },
+          "label": "Sensor (temperature) 1 Device Error",
+          "description": "System",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:OnOffType": "COMMAND_CLASS_ALARM:8;type\u003dSYSTEM"
+          },
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "e1b8aa8db9",
+              "node4",
+              "sensor_relhumidity9"
+            ],
+            "uid": "zwave:device:e1b8aa8db9:node4:sensor_relhumidity9"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "sensor_relhumidity"
+            ],
+            "uid": "zwave:sensor_relhumidity"
+          },
+          "label": "Relative Humidity 1",
+          "description": "Indicates the current relative humidity",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:DecimalType": "COMMAND_CLASS_SENSOR_MULTILEVEL:9;type\u003dRELATIVE_HUMIDITY"
+          },
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number:Temperature",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "e1b8aa8db9",
+              "node4",
+              "sensor_temperature9"
+            ],
+            "uid": "zwave:device:e1b8aa8db9:node4:sensor_temperature9"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "sensor_temperature"
+            ],
+            "uid": "zwave:sensor_temperature"
+          },
+          "label": "Sensor (temperature) 2",
+          "description": "Indicates the current temperature",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:QuantityType": "COMMAND_CLASS_SENSOR_MULTILEVEL:9;type\u003dTEMPERATURE"
+          },
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "e1b8aa8db9",
+              "node4",
+              "notification_system9"
+            ],
+            "uid": "zwave:device:e1b8aa8db9:node4:notification_system9"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "notification_system"
+            ],
+            "uid": "zwave:notification_system"
+          },
+          "label": "Sensor (temperature) 2 Device Error",
+          "description": "System",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:OnOffType": "COMMAND_CLASS_ALARM:9;type\u003dSYSTEM"
+          },
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number:Temperature",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "e1b8aa8db9",
+              "node4",
+              "sensor_temperature10"
+            ],
+            "uid": "zwave:device:e1b8aa8db9:node4:sensor_temperature10"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "sensor_temperature"
+            ],
+            "uid": "zwave:sensor_temperature"
+          },
+          "label": "Sensor (temperature) 3",
+          "description": "Indicates the current temperature",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:QuantityType": "COMMAND_CLASS_SENSOR_MULTILEVEL:10;type\u003dTEMPERATURE"
+          },
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "e1b8aa8db9",
+              "node4",
+              "notification_system10"
+            ],
+            "uid": "zwave:device:e1b8aa8db9:node4:notification_system10"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "notification_system"
+            ],
+            "uid": "zwave:notification_system"
+          },
+          "label": "Sensor (temperature) 3 Device Error",
+          "description": "System",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:OnOffType": "COMMAND_CLASS_ALARM:10;type\u003dSYSTEM"
+          },
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number:Temperature",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "e1b8aa8db9",
+              "node4",
+              "sensor_temperature11"
+            ],
+            "uid": "zwave:device:e1b8aa8db9:node4:sensor_temperature11"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "sensor_temperature"
+            ],
+            "uid": "zwave:sensor_temperature"
+          },
+          "label": "Sensor (temperature) 4",
+          "description": "Indicates the current temperature",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:QuantityType": "COMMAND_CLASS_SENSOR_MULTILEVEL:11;type\u003dTEMPERATURE"
+          },
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "e1b8aa8db9",
+              "node4",
+              "notification_system11"
+            ],
+            "uid": "zwave:device:e1b8aa8db9:node4:notification_system11"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "notification_system"
+            ],
+            "uid": "zwave:notification_system"
+          },
+          "label": "Sensor (temperature) 4 Device Error",
+          "description": "System",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:OnOffType": "COMMAND_CLASS_ALARM:11;type\u003dSYSTEM"
+          },
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number:Temperature",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "e1b8aa8db9",
+              "node4",
+              "sensor_temperature12"
+            ],
+            "uid": "zwave:device:e1b8aa8db9:node4:sensor_temperature12"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "sensor_temperature"
+            ],
+            "uid": "zwave:sensor_temperature"
+          },
+          "label": "Sensor (temperature) 5",
+          "description": "Indicates the current temperature",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:QuantityType": "COMMAND_CLASS_SENSOR_MULTILEVEL:12;type\u003dTEMPERATURE"
+          },
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "e1b8aa8db9",
+              "node4",
+              "notification_system12"
+            ],
+            "uid": "zwave:device:e1b8aa8db9:node4:notification_system12"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "notification_system"
+            ],
+            "uid": "zwave:notification_system"
+          },
+          "label": "Sensor (temperature) 5 Device Error",
+          "description": "System",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:OnOffType": "COMMAND_CLASS_ALARM:12;type\u003dSYSTEM"
+          },
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number:Temperature",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "e1b8aa8db9",
+              "node4",
+              "sensor_temperature13"
+            ],
+            "uid": "zwave:device:e1b8aa8db9:node4:sensor_temperature13"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "sensor_temperature"
+            ],
+            "uid": "zwave:sensor_temperature"
+          },
+          "label": "Sensor (temperature) 6",
+          "description": "Indicates the current temperature",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:QuantityType": "COMMAND_CLASS_SENSOR_MULTILEVEL:13;type\u003dTEMPERATURE"
+          },
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "e1b8aa8db9",
+              "node4",
+              "notification_system13"
+            ],
+            "uid": "zwave:device:e1b8aa8db9:node4:notification_system13"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "notification_system"
+            ],
+            "uid": "zwave:notification_system"
+          },
+          "label": "Sensor (temperature) 6 Device Error",
+          "description": "System",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:OnOffType": "COMMAND_CLASS_ALARM:13;type\u003dSYSTEM"
+          },
+          "defaultTags": []
+        }
+      ],
+      "configuration": {
+        "properties": {
+          "action_heal": false,
+          "config_150_1": 10,
+          "config_151_1": 10,
+          "config_152_2": 0,
+          "config_153_2": 0,
+          "config_154_1": 0,
+          "config_155_1": 0,
+          "config_156_2": 0,
+          "config_157_2": 0,
+          "config_20_1": 2,
+          "config_21_1": 2,
+          "config_24_1": 0,
+          "config_25_1": 0,
+          "config_40_1_0000000F": 0,
+          "config_41_1_0000000F": 0,
+          "config_47_2": 255,
+          "config_49_2": 0,
+          "config_52_2": 255,
+          "config_54_2": 0,
+          "config_63_1": 5,
+          "config_64_2": 0,
+          "config_65_2": 5,
+          "config_66_2": 0,
+          "config_67_2": 5,
+          "config_68_2": 0,
+          "group_1": [
+            "controller"
+          ],
+          "group_2": [],
+          "group_3": [],
+          "node_id": 4
+        }
+      },
+      "properties": {
+        "commandClass:COMMAND_CLASS_ALARM": "DELETE SAME AS ENDPOINT 1",
+        "commandClass:COMMAND_CLASS_ALARM:12": "type\u003dSYSTEM",
+        "commandClass:COMMAND_CLASS_ALARM:13": "type\u003dSYSTEM",
+        "commandClass:COMMAND_CLASS_ALARM:7": "type\u003dSYSTEM",
+        "commandClass:COMMAND_CLASS_ALARM:8": "type\u003dSYSTEM",
+        "commandClass:COMMAND_CLASS_ALARM:9": "type\u003dSYSTEM",
+        "commandClass:COMMAND_CLASS_BASIC:1": "DELETE",
+        "commandClass:COMMAND_CLASS_BASIC:2": "DELETE",
+        "commandClass:COMMAND_CLASS_BASIC:3": "DELETE",
+        "commandClass:COMMAND_CLASS_BASIC:4": "DELETE",
+        "commandClass:COMMAND_CLASS_BASIC:5": "DELETE",
+        "commandClass:COMMAND_CLASS_BASIC:6": "DELETE",
+        "commandClass:COMMAND_CLASS_BASIC:7": "DELETE",
+        "commandClass:COMMAND_CLASS_PROTECTION:1": "DELETE",
+        "commandClass:COMMAND_CLASS_PROTECTION:2": "DELETE",
+        "commandClass:COMMAND_CLASS_SENSOR_MULTILEVEL:10": "type\u003dTEMPERATURE",
+        "commandClass:COMMAND_CLASS_SENSOR_MULTILEVEL:11": "type\u003dTEMPERATURE",
+        "commandClass:COMMAND_CLASS_SENSOR_MULTILEVEL:12": "type\u003dTEMPERATURE",
+        "commandClass:COMMAND_CLASS_SENSOR_MULTILEVEL:13": "type\u003dTEMPERATURE",
+        "commandClass:COMMAND_CLASS_SENSOR_MULTILEVEL:3": "type\u003dVOLTAGE",
+        "commandClass:COMMAND_CLASS_SENSOR_MULTILEVEL:4": "type\u003dVOLTAGE",
+        "commandClass:COMMAND_CLASS_SENSOR_MULTILEVEL:7": "DELETE MAPPED TO ROOT",
+        "commandClass:COMMAND_CLASS_SENSOR_MULTILEVEL:8": "type\u003dTEMPERATURE",
+        "dbReference": "1005",
+        "defaultAssociations": "1",
+        "manufacturerId": "010F",
+        "manufacturerRef": "0502:1000,0502:2000,0502:3000",
+        "modelId": "FGBS222",
+        "vendor": "Fibargroup",
+        "zwave_beaming": "true",
+        "zwave_class_basic": "BASIC_TYPE_ROUTING_SLAVE",
+        "zwave_class_generic": "GENERIC_TYPE_SENSOR_NOTIFICATION",
+        "zwave_class_specific": "SPECIFIC_TYPE_NOTIFICATION_SENSOR",
+        "zwave_deviceid": "8192",
+        "zwave_devicetype": "1282",
+        "zwave_frequent": "false",
+        "zwave_lastheal": "2021-12-20T19:36:48Z",
+        "zwave_listening": "true",
+        "zwave_manufacturer": "271",
+        "zwave_neighbours": "1,3",
+        "zwave_nodeid": "4",
+        "zwave_plus_devicetype": "NODE_TYPE_ZWAVEPLUS_NODE",
+        "zwave_plus_roletype": "ROLE_TYPE_SLAVE_ALWAYS_ON",
+        "zwave_routing": "true",
+        "zwave_secure": "false",
+        "zwave_version": "5.1"
+      },
+      "uid": {
+        "segments": [
+          "zwave",
+          "device",
+          "e1b8aa8db9",
+          "node4"
+        ],
+        "uid": "zwave:device:e1b8aa8db9:node4"
+      },
+      "thingTypeUID": {
+        "segments": [
+          "zwave",
+          "fibaro_fgbs222_00_000"
+        ],
+        "uid": "zwave:fibaro_fgbs222_00_000"
+      }
+    }
+  },
+  "zwave:device:e1b8aa8db9:node6": {
+    "class": "org.openhab.core.thing.internal.ThingImpl",
+    "value": {
+      "label": "IAC004",
+      "bridgeUID": {
+        "segments": [
+          "zwave",
+          "serial_zstick",
+          "e1b8aa8db9"
+        ],
+        "uid": "zwave:serial_zstick:e1b8aa8db9"
+      },
+      "channels": [
+        {
+          "acceptedItemType": "Switch",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "e1b8aa8db9",
+              "node6",
+              "switch_binary"
+            ],
+            "uid": "zwave:device:e1b8aa8db9:node6:switch_binary"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "switch_binary"
+            ],
+            "uid": "zwave:switch_binary"
+          },
+          "label": "Switch",
+          "description": "Switch the power on and off",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:OnOffType": "COMMAND_CLASS_SWITCH_BINARY,COMMAND_CLASS_BASIC"
+          },
+          "defaultTags": []
+        }
+      ],
+      "configuration": {
+        "properties": {
+          "config_1_1": 0,
+          "config_2_4": 0,
+          "config_4_4": 0,
+          "config_6_1": 2,
+          "group_1": [],
+          "group_2": [],
+          "node_id": 6
+        }
+      },
+      "properties": {
+        "dbReference": "1258",
+        "defaultAssociations": "1",
+        "manufacturerId": "0312",
+        "manufacturerRef": "FF00:FF07",
+        "modelId": "MP22Z",
+        "vendor": "NIE Technology",
+        "zwave_beaming": "true",
+        "zwave_class_basic": "BASIC_TYPE_ROUTING_SLAVE",
+        "zwave_class_generic": "GENERIC_TYPE_SWITCH_BINARY",
+        "zwave_class_specific": "SPECIFIC_TYPE_POWER_SWITCH_BINARY",
+        "zwave_deviceid": "65287",
+        "zwave_devicetype": "65280",
+        "zwave_frequent": "false",
+        "zwave_listening": "true",
+        "zwave_manufacturer": "786",
+        "zwave_neighbours": "",
+        "zwave_nodeid": "6",
+        "zwave_plus_devicetype": "NODE_TYPE_ZWAVEPLUS_NODE",
+        "zwave_plus_roletype": "ROLE_TYPE_SLAVE_ALWAYS_ON",
+        "zwave_routing": "true",
+        "zwave_secure": "false",
+        "zwave_version": "1.0"
+      },
+      "uid": {
+        "segments": [
+          "zwave",
+          "device",
+          "e1b8aa8db9",
+          "node6"
+        ],
+        "uid": "zwave:device:e1b8aa8db9:node6"
+      },
+      "thingTypeUID": {
+        "segments": [
+          "zwave",
+          "nietech_mp22z_00_000"
+        ],
+        "uid": "zwave:nietech_mp22z_00_000"
+      }
+    }
+  },
+  "zwave:device:e1b8aa8db9:node7": {
+    "class": "org.openhab.core.thing.internal.ThingImpl",
+    "value": {
+      "label": "IAC003",
+      "bridgeUID": {
+        "segments": [
+          "zwave",
+          "serial_zstick",
+          "e1b8aa8db9"
+        ],
+        "uid": "zwave:serial_zstick:e1b8aa8db9"
+      },
+      "channels": [
+        {
+          "acceptedItemType": "Switch",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "device",
+              "e1b8aa8db9",
+              "node7",
+              "switch_binary"
+            ],
+            "uid": "zwave:device:e1b8aa8db9:node7:switch_binary"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "switch_binary"
+            ],
+            "uid": "zwave:switch_binary"
+          },
+          "label": "Switch",
+          "description": "Switch the power on and off",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {
+            "binding:*:OnOffType": "COMMAND_CLASS_SWITCH_BINARY"
+          },
+          "defaultTags": []
+        }
+      ],
+      "configuration": {
+        "properties": {
+          "config_1_1": 0,
+          "config_2_2": 0,
+          "group_1": [],
+          "group_2": [],
+          "node_id": 7
+        }
+      },
+      "properties": {
+        "dbReference": "1304",
+        "defaultAssociations": "1",
+        "manufacturerId": "0312",
+        "manufacturerRef": "FF00:FF0C",
+        "modelId": "MP21Z",
+        "vendor": "NIE Technology",
+        "zwave_beaming": "true",
+        "zwave_class_basic": "BASIC_TYPE_ROUTING_SLAVE",
+        "zwave_class_generic": "GENERIC_TYPE_SWITCH_BINARY",
+        "zwave_class_specific": "SPECIFIC_TYPE_POWER_SWITCH_BINARY",
+        "zwave_deviceid": "65292",
+        "zwave_devicetype": "65280",
+        "zwave_frequent": "false",
+        "zwave_listening": "true",
+        "zwave_manufacturer": "786",
+        "zwave_neighbours": "",
+        "zwave_nodeid": "7",
+        "zwave_plus_devicetype": "NODE_TYPE_ZWAVEPLUS_NODE",
+        "zwave_plus_roletype": "ROLE_TYPE_SLAVE_ALWAYS_ON",
+        "zwave_routing": "true",
+        "zwave_secure": "false",
+        "zwave_version": "1.0"
+      },
+      "uid": {
+        "segments": [
+          "zwave",
+          "device",
+          "e1b8aa8db9",
+          "node7"
+        ],
+        "uid": "zwave:device:e1b8aa8db9:node7"
+      },
+      "thingTypeUID": {
+        "segments": [
+          "zwave",
+          "nietech_mp21z_00_000"
+        ],
+        "uid": "zwave:nietech_mp21z_00_000"
+      }
+    }
+  },
+  "zwave:serial_zstick:e1b8aa8db9": {
+    "class": "org.openhab.core.thing.internal.BridgeImpl",
+    "value": {
+      "label": "Z-Wave Serial Controller",
+      "channels": [
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "serial_zstick",
+              "e1b8aa8db9",
+              "serial_sof"
+            ],
+            "uid": "zwave:serial_zstick:e1b8aa8db9:serial_sof"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "serial_sof"
+            ],
+            "uid": "zwave:serial_sof"
+          },
+          "label": "Start Frames",
+          "description": "Counter tracking the number of SOF bytes received",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "serial_zstick",
+              "e1b8aa8db9",
+              "serial_ack"
+            ],
+            "uid": "zwave:serial_zstick:e1b8aa8db9:serial_ack"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "serial_ack"
+            ],
+            "uid": "zwave:serial_ack"
+          },
+          "label": "Frames Acknowledged",
+          "description": "Counter tracking the number of frames acknowledged by the controller",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "serial_zstick",
+              "e1b8aa8db9",
+              "serial_nak"
+            ],
+            "uid": "zwave:serial_zstick:e1b8aa8db9:serial_nak"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "serial_nak"
+            ],
+            "uid": "zwave:serial_nak"
+          },
+          "label": "Frames Rejected",
+          "description": "Counter tracking the number of frames rejected by the controller",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "serial_zstick",
+              "e1b8aa8db9",
+              "serial_can"
+            ],
+            "uid": "zwave:serial_zstick:e1b8aa8db9:serial_can"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "serial_can"
+            ],
+            "uid": "zwave:serial_can"
+          },
+          "label": "Frames Cancelled",
+          "description": "Counter tracking the number of frames cancelled by the controller",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "serial_zstick",
+              "e1b8aa8db9",
+              "serial_oof"
+            ],
+            "uid": "zwave:serial_zstick:e1b8aa8db9:serial_oof"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "serial_oof"
+            ],
+            "uid": "zwave:serial_oof"
+          },
+          "label": "OOF Bytes Received",
+          "description": "Counter tracking the number of out of flow bytes received",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        },
+        {
+          "acceptedItemType": "Number",
+          "kind": "STATE",
+          "uid": {
+            "segments": [
+              "zwave",
+              "serial_zstick",
+              "e1b8aa8db9",
+              "serial_cse"
+            ],
+            "uid": "zwave:serial_zstick:e1b8aa8db9:serial_cse"
+          },
+          "channelTypeUID": {
+            "segments": [
+              "zwave",
+              "serial_cse"
+            ],
+            "uid": "zwave:serial_cse"
+          },
+          "label": "Received Checksum Errors",
+          "description": "Counter tracking the number of frames received with checksum errors",
+          "configuration": {
+            "properties": {}
+          },
+          "properties": {},
+          "defaultTags": []
+        }
+      ],
+      "configuration": {
+        "properties": {
+          "controller_exclude": false,
+          "controller_hardreset": false,
+          "controller_inclusiontimeout": 30,
+          "controller_master": true,
+          "controller_sisnode": 1,
+          "controller_softreset": false,
+          "controller_sync": false,
+          "controller_wakeupperiod": 3600,
+          "heal_time": 2,
+          "inclusion_mode": 2,
+          "port": "/dev/ttyACM0",
+          "security_inclusionmode": 0,
+          "security_networkkey": "A1 AD 35 2E 6B B3 F9 05 59 64 9A B8 52 8B DA EE"
+        }
+      },
+      "properties": {},
+      "uid": {
+        "segments": [
+          "zwave",
+          "serial_zstick",
+          "e1b8aa8db9"
+        ],
+        "uid": "zwave:serial_zstick:e1b8aa8db9"
+      },
+      "thingTypeUID": {
+        "segments": [
+          "zwave",
+          "serial_zstick"
+        ],
+        "uid": "zwave:serial_zstick"
+      }
+    }
+  }
+}

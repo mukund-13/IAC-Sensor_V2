@@ -1,0 +1,17 @@
+{
+  "update_time_flag_debug_flag": "False",
+  "config_to_dict_debug_flag":"False",
+  "name_to_id_debug_flag":"False",
+  "initialize_zwave_network_debug_flag":"False",
+  "pack_company_info_msg_debug_flag":"True",
+  "pack_sensor_info_msg_debug_flag":"True",
+  "pack_control_msg_debug_flag":"True",
+  "pack_sensor_data_msg_debug_flag":"True",
+  "read_sensor_data_debug_flag":"False",
+  "output_to_meaning_debug_flag":"False",
+  "process_data_debug_flag":"False",
+  "decode_database_command_debug_flag":"False",
+  "msg_to_file_debug_flag":"True",
+  "check_node_status_debug_flag":"True",
+  "check_switch_status_debug_flag":"False"
+}
